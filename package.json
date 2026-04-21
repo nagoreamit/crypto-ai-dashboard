@@ -1,0 +1,9 @@
+{
+  "name": "crypto-ai-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd Backend && venv\\Scripts\\uvicorn main:app --reload",
+    "frontend": "cd crypto-frontend && npm start"
+  }
+}

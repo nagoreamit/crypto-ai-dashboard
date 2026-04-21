@@ -1,0 +1,71 @@
+body {
+  background: radial-gradient(circle at top, #0f2027, #000000);
+}
+
+.neon-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neon-card {
+  width: 320px;
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px #00f2ff, 0 0 40px #00f2ff;
+  text-align: center;
+}
+
+.neon-title {
+  color: #00f2ff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #00f2ff;
+}
+
+.neon-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #111;
+  color: white;
+  box-shadow: 0 0 10px #00f2ff inset;
+}
+
+.neon-input::placeholder {
+  color: #aaa;
+}
+
+.neon-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #00f2ff;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00f2ff, 0 0 20px #00f2ff;
+}
+
+.neon-btn:hover {
+  background: #0ff;
+  transform: scale(1.05);
+}
+
+.switch-text {
+  margin-top: 15px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.switch-text span {
+  color: #00f2ff;
+  text-shadow: 0 0 5px #00f2ff;
+}
